@@ -1,24 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:wb=“http://open.weibo.com/wb”>
 <head>
 	<title>储物柜</title>
-	<!--新浪验证-->
-	<meta property="wb:webmaster" content="e27a6e2d6e35f120" />
 	<!--微博JS SDK-->
 	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2098187885" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-	<div>
-		<h1>Hello!!</h1>
-		<div id="wb_connect_btn"></div>
-	</div>
-
-	<form name="uploadForm" method="POST" action="http://api.t.sina.com.cn/statuses/upload.xml" enctype="multipart/form-data">
-		<input type="text" name="status" value="填写要发表的文字">
-		<input type="file" name="pic" value="浏览文件">
-		<input type="submit" value="上传">
-		<input type="hidden" name="source" value="改成你的appkey">
-	</form>
+	<div id="wb_connect_btn"></div>
+	<wb:follow-button uid="1853920387" type="red_1" width="67" height="24" ></wb:follow-button>
+	<wb:comments url="http://grid.yop.hk/about.html" width="auto" ></wb:comments>
 
 	<div>
 		<script type="text/javascript">
